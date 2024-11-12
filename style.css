@@ -9,7 +9,7 @@ html,body{
   height: 100%;
   width: 100%;
   place-items: center;
-  background: linear-gradient( #ffffff, #32CC3E);
+  background: linear-gradient( #ffffff, #32cc3f48);
   display: flex;
   justify-content: right;
   padding-right: 60px;
