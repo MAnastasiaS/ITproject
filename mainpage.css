@@ -1,0 +1,162 @@
+html {
+    box-sizing: border-box;
+   }
+   
+   *,
+   *::after,
+   *::before {
+    box-sizing: inherit;
+   }
+   
+   /* Убираем стандартное подчёркивание у ссылок */
+   a {
+    text-decoration: none;
+   }
+   
+   /* Устанавливаем минимальный размер экрана и добавляем фоновое изображение */
+   body {
+    min-height: 100vh;
+    background: linear-gradient(90deg, #ffffff, #32cc3f48);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    font-family: "Montserrat", sans-serif; /* Используем шрифт Montserrat */
+   }
+   
+   /* Стилизуем контейнер */
+   .container {
+    max-width: 1190px;
+    padding: 0 15px; /* Увеличиваем боковые отступы */
+    margin: 0 auto; /* Центрируем контейнер по горизонтали */
+   }
+
+
+   
+   /* Стилизуем шапку сайта */
+   .header {
+    background-color: #fff;
+    padding-top: 30px; /* Увеличиваем верхний отступ шапки, чтобы логотип и меню не прилипали к экрану */
+   }
+
+   .form {
+    background-color: #32cc3f53;
+    padding-top: 45px;
+   }
+
+   .search {
+    margin-left: 30%;
+    font-size:30px;
+
+   }
+
+ 
+
+
+   /* Стилизуем внутренний контейнер шапки */
+   .header__inner {
+    display: flex; /* Выстраиваем элементы внутри контейнера в строку */
+    justify-content: space-between; /* Распределяем элементы по ширине контейнера */
+    align-items: center; /* Выравниваем элементы по вертикали */
+   }
+   
+   /* Стилизуем логотип */
+   .logo {
+    text-transform: uppercase; /* Преобразуем текст в верхний регистр */
+    font-size: 28px; /* Устанавливаем размер шрифта */
+    font-weight: 550; /* Устанавливаем жирное начертание шрифта */
+    color: #0ed833; /* Устанавливаем цвет логотипа */
+   }
+   
+   /* Стилизуем списки меню */
+   .menu__list {
+    display: flex; /* Отображаем элементы списка в строку */
+    list-style: none; /* Убираем стандартные маркеры (чёрные точки) */
+   }
+   
+   /* Стилизуем пункты меню */
+   .menu__list-item {
+    margin-right: 25px; /* Добавляем отступ между пунктами меню */
+   }
+   
+   /* Стилизуем ссылки в меню */
+   .menu__list-link {
+    padding: 10px 20px; /* Увеличиваем вертикальный и горизонтальный отступы */
+    font-size: 20px; /* Уменьшаем размер шрифта */
+    color: #000000; /* Устанавливаем цвет ссылок */
+    cursor: pointer; /* Задаём изменение вида курсора при наведении на пункты меню */
+    transition: all 0.3s; /* Добавляем плавное изменение стилей при наведении */
+   }
+   
+   .menu__list-item_1 {
+    margin-right: 25px; /* Добавляем отступ между пунктами меню */
+   }
+   
+   /* Стилизуем ссылки в меню */
+   .menu__list-link_1 {
+    padding: 10px 20px; /* Увеличиваем вертикальный и горизонтальный отступы */
+    font-size: 20px; /* Уменьшаем размер шрифта */
+    color: #000000; /* Устанавливаем цвет ссылок */
+    cursor: pointer; /* Задаём изменение вида курсора при наведении на пункты меню */
+    transition: all 0.3s; /* Добавляем плавное изменение стилей при наведении */
+    border-radius: 15px;
+    border:1px solid rgb(40, 219, 27);
+   }
+   
+   /* Добавляем стилизацию ссылок в меню при наведении курсора */
+   .menu__list-link:hover {
+    text-decoration: underline;
+    transition: width 0.3s ease-out;
+    height: 2px;
+    
+   }
+
+   .boy {
+    margin-left: 70%;
+   }
+
+/*discription*/
+.discription {
+    top: 35%;
+    left: 10%;
+    width: 35%;
+    position: absolute;
+}
+
+
+
+.colortext1 {
+    color: #000000;
+}
+
+.colortext2 {
+    color: #32CC3E;
+}
+.colortext3 {
+    color: #32cc3fb0;
+    font-size: 35px;
+    
+
+}
+.discription h1 {
+    margin: 0;
+    font-size: 36px;
+    color: #fff;
+}
+
+.discription p {
+   color: #fff;
+   font-size: 20px;
+
+
+}
+
+.button {
+    height:50px;
+    border-style:solid;
+    background:#ffffff;
+    cursor:pointer;
+    border-radius: 15px;
+    border:1px solid rgb(40, 219, 27);
+
+    
+    }

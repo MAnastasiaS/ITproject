@@ -1,0 +1,94 @@
+<!-- Определяем тип HTML-документа для браузера -->
+<!DOCTYPE html>
+<!-- Задаём язык контента страницы (русский язык) -->
+<html lang="ru">
+ <head>
+   <!-- Устанавливаем кодировку символов -->
+   <meta charset="UTF-8" />
+   <!-- Добавляем настройку для адаптивности страницы на различных устройствах -->
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <!-- Прописываем заголовок страницы -->
+   <title>Шапка сайта с логотипом и меню</title>
+   <!-- Подключаем через Google Fonts шрифт Montserrat. Ссылка для выбора шрифта: https://fonts.google.com/ -->
+   <link rel="preconnect" href="https://fonts.googleapis.com" />
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+   <link
+     href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+     rel="stylesheet"
+   />
+   <!-- Подключаем нормализацию стилей для единообразного отображения страницы в разных браузерах. Ссылка для подключения: https://cdnjs.com/libraries/normalize -->
+   <link
+     rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+   />
+   <!-- Подключаем файл со стилями -->
+   <link rel="stylesheet" href="mainpage.css" />
+ </head>
+ <body>
+   <!-- Добавляем шапку сайта -->
+   <header class="header">
+     <!-- Добавляем контейнер -->
+     <div class="container">
+       <!-- Добавляем внутреннюю обёртку для выравнивания логотипа и меню -->
+       <div class="header__inner">
+         <!-- Создаём логотип сайта -->
+         <a class="logo" href="#">CAR.COM</a>
+         <!-- С помощью списка создаём навигационное меню -->
+         <nav class="menu">
+           <ul class="menu__list">
+             <li class="menu__list-item">
+               <a class="menu__list-link" href="#">Профориентация</a>
+             </li>
+             <li class="menu__list-item">
+               <a class="menu__list-link" href="#">Профессии</a>
+             </li>
+             <li class="menu__list-item">
+               <a class="menu__list-link" href="#">Помощь</a>
+             </li>
+             <li class="menu__list-item">
+               <a class="menu__list-link" href="#">О нас</a>
+             </li>
+             <li class="menu__list-item_1">
+                <a class="menu__list-link_1" href="file:///C:/Users/nasty/OneDrive/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D0%BE%D0%BB/%D0%98%D0%A2%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B/index.html">Вход</a>
+            </li>
+           </ul>
+         </nav>
+       </div>
+     </div>
+   </header>
+
+   <form class="form">
+    <p>
+        <input class="search" name="q" placeholder="Введите профессию или название курса"> 
+        <input class="submit" value="Найти">
+    </p>
+   </form>
+
+   <figure>
+    <div class = 'boy'>
+       <img src="три.png" width="440" height="460" >
+    </div>
+   </figure>
+
+   <div class="discription">
+    <h1><span class="colortext2">
+        Career Compass 
+    </span>
+    <span class="colortext3">
+        Платформа профориентации
+    </span>
+    </h1>
+    <p>.<span class="colortext1"> Помогаем разобраться в современных
+        профессиях и сделать осознанный выбор </span>
+    </p>
+
+   </div>
+
+   <input type="button" value="Пройти тест" class="button">
+
+
+
+
+   <!-- Место для основного контента на сайте -->
+ </body>
+</html>
